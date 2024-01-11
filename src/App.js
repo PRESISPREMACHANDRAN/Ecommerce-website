@@ -1,5 +1,6 @@
 
 import './App.css';
+import AddProduct from './Components/AddProduct';
 import Header from './Components/Header';
 import NotFound from './Components/NotFound';
 import SearchProduct from './Components/SearchProduct';
@@ -12,6 +13,7 @@ function App() {
       <NotFound/>
       <ViewAll/>
       <SearchProduct/>
+      <AddProduct/>
       
     </div>
   );

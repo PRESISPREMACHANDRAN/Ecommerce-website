@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-primary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Shopping App
+            Ecommerce Website
           </a>
           <button
             className="navbar-toggler"
@@ -23,17 +23,17 @@ const Header = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">
-                  Add Data
+                  Add Product
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/search">
-                  Search
+                  Search Product
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/viewAll">
-                  View All
+                  View All Products
                 </a>
               </li>
             </ul>
